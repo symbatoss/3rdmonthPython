@@ -9,12 +9,7 @@
 {% for i in reviews %}
     <hr>
     <p>Отзыв продукта: {{ i.text }}</p>
-{#    {% for review in reviews %}#}
-        <li>Количество отзывов товара: {{ product.title }} - {{ product.review_set.count }}</li>
-
-{#    {% endfor %}#}
-
 {% endfor %}
-
+<li>Количество отзывов товара: {{ product.title }} - {{ product.review_set.count }}</li>
 </body>
 </html>

@@ -20,4 +20,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('products/', views.get_all_products),
     path('products/<int:id>/', views.get_one_product),
+    path('add/', views.add),
 ]
